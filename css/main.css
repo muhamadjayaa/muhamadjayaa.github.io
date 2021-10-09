@@ -24,9 +24,7 @@ body::before {
 }
 
 .custom-nav .navbar-brand img {
-  width: 90px;
-  height: 33px;
-  margin-top: -7px;
+  height: 1.8em;
 }
 
 .custom-nav .navbar-brand span {
@@ -171,7 +169,7 @@ body::before {
 }
 
 .gallery-section {
-  margin-top: 10em;
+  margin-top: 8em;
 }
 
 .gallery-section h3 {
@@ -186,5 +184,26 @@ body::before {
   font-size: 1.1rem;
   margin-top: 2em;
   margin-bottom: 2em;
+}
+
+.footer-section {
+  margin-top: 8em;
+}
+
+.footer-section img {
+  height: 5em;
+  margin-top: 20px;
+}
+
+.footer-section h3 {
+  font-weight: 700;
+  font-size: 1.3rem;
+  color: #393c43;
+}
+
+.footer-section .naruto-desc {
+  color: #393c43;
+  font-weight: 500;
+  font-size: 0.7rem;
 }
 /*# sourceMappingURL=main.css.map */

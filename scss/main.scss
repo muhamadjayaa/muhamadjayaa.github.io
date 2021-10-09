@@ -42,9 +42,11 @@ body {
 .custom-nav {
   .navbar-brand {
     img {
-      width: 90px;
-      height: 33px;
-      margin-top: -7px;
+      height: 1.8em;
+
+      // width: 90px;
+      // height: 33px;
+      // margin-top: -7px;
     }
     span {
       color: $primaryColor;
@@ -173,7 +175,7 @@ body {
 
 // Gallery Section
 .gallery-section {
-  margin-top: 10em;
+  margin-top: 8em;
   h3 {
     font-weight: 700;
     font-size: 3rem;
@@ -186,5 +188,26 @@ body {
     font-size: 1.1rem;
     margin-top: 2em;
     margin-bottom: 2em;
+  }
+}
+
+// Footer Section
+.footer-section {
+  margin-top: 8em;
+  img {
+    height: 5em;
+    margin-top: 20px;
+  }
+
+  h3 {
+    font-weight: 700;
+    font-size: 1.3rem;
+    color: $textColor;
+  }
+
+  .naruto-desc {
+    color: $textColor;
+    font-weight: 500;
+    font-size: 0.7rem;
   }
 }
