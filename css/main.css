@@ -186,9 +186,21 @@ body::before {
   margin-bottom: 2em;
 }
 
+.gallery-section img {
+  height: 20vmax;
+}
+
 .gallery-section .custom-text-card {
   background-color: #ff9400;
+}
+
+.gallery-section .custom-text-card h5 {
   color: white;
+}
+
+.gallery-section .custom-text-card p {
+  color: white;
+  font-size: 0.7rem;
 }
 
 .footer-section {

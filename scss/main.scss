@@ -190,9 +190,19 @@ body {
     margin-bottom: 2em;
   }
 
+  img {
+    height: 20vmax;
+  }
+
   .custom-text-card {
     background-color: $primaryColor;
-    color: white;
+    h5 {
+      color: white;
+    }
+    p {
+      color: white;
+      font-size: 0.7rem;
+    }
   }
 }
 
