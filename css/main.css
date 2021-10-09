@@ -201,6 +201,23 @@ body::before {
   color: #393c43;
 }
 
+.footer-section ul li {
+  list-style-type: none;
+  margin-left: -29px;
+  color: #393c43;
+  font-weight: 500;
+  font-size: 0.9rem;
+}
+
+.footer-section ul a {
+  text-decoration: none;
+  color: #393c43;
+}
+
+.footer-section ul a:hover {
+  color: #ff9400;
+}
+
 .footer-section .naruto-desc {
   color: #393c43;
   font-weight: 500;

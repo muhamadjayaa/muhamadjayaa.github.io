@@ -205,6 +205,23 @@ body {
     color: $textColor;
   }
 
+  ul {
+    li {
+      list-style-type: none;
+      margin-left: -29px;
+      color: $textColor;
+      font-weight: 500;
+      font-size: 0.9rem;
+    }
+    a {
+      text-decoration: none;
+      color: $textColor;
+      &:hover {
+        color: $primaryColor;
+      }
+    }
+  }
+
   .naruto-desc {
     color: $textColor;
     font-weight: 500;
