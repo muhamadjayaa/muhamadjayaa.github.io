@@ -186,6 +186,11 @@ body::before {
   margin-bottom: 2em;
 }
 
+.gallery-section .custom-text-card {
+  background-color: #ff9400;
+  color: white;
+}
+
 .footer-section {
   margin-top: 8em;
 }
