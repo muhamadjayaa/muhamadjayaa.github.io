@@ -186,10 +186,6 @@ body::before {
   margin-bottom: 2em;
 }
 
-.gallery-section img {
-  height: 20vmax;
-}
-
 .gallery-section .custom-text-card {
   background-color: #ff9400;
 }
@@ -203,8 +199,38 @@ body::before {
   font-size: 0.7rem;
 }
 
+@media screen and (max-width: 992px) {
+  .gallery-section .custom-card {
+    height: 40vmax;
+    width: 36vmax;
+    margin: 0 auto;
+  }
+}
+
+.symbols-section {
+  background-color: #d3d3cb;
+  text-align: center;
+  color: black;
+  padding: 2em;
+}
+
+.symbols-section img {
+  height: 70px;
+  margin-bottom: 2em;
+}
+
+.symbols-section .village {
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+
+.symbols-section .desc-village {
+  font-size: 0.8rem;
+  font-weight: 500;
+}
+
 .footer-section {
-  margin-top: 8em;
+  margin-top: 2em;
 }
 
 .footer-section img {

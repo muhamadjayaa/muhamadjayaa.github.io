@@ -190,10 +190,6 @@ body {
     margin-bottom: 2em;
   }
 
-  img {
-    height: 20vmax;
-  }
-
   .custom-text-card {
     background-color: $primaryColor;
     h5 {
@@ -204,11 +200,38 @@ body {
       font-size: 0.7rem;
     }
   }
+  @media screen and (max-width: 992px) {
+    .custom-card {
+      height: 40vmax;
+      width: 36vmax;
+      margin: 0 auto;
+    }
+  }
+}
+
+// Symbols Section
+.symbols-section {
+  background-color: #d3d3cb;
+  text-align: center;
+  color: black;
+  padding: 2em;
+  img {
+    height: 70px;
+    margin-bottom: 2em;
+  }
+  .village {
+    font-size: 1.5rem;
+    font-weight: 700;
+  }
+  .desc-village {
+    font-size: 0.8rem;
+    font-weight: 500;
+  }
 }
 
 // Footer Section
 .footer-section {
-  margin-top: 8em;
+  margin-top: 2em;
   img {
     height: 5em;
     margin-top: 20px;
